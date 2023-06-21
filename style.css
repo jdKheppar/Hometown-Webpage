@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    text-align: center;
+    padding-left:  20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+#intro-p{
+    font-size: 18px;
+    color: white;
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+.intro{
+    color: white;
+    height: 400px;
+    background-image: url("images/intro.jpg");
+    background-size: cover;
+}
+.imgages{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.places{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.c{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.myMessage{
+    color: white;
+    height: 350px;
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    background-color: #44a0ae;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+#juni{
+    padding: 20px;
+}
